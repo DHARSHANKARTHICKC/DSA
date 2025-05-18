@@ -86,7 +86,7 @@ float prefix_eval(char e[])
     int top = -1;
     float s[100];
     int max = 100;
-    for(int i= strlen(e);i>=0;i--)
+    for(int i = strlen(e) - 1; i >= 0 ; i-- )
     {
         if(isdigit(e[i]))
         {
